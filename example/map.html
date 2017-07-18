@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Leaflet map</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="dist/leaflet.css" />
+	<script src="dist/leaflet.js"></script>
+	<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body>
+	<div id="mainmap"></div>
+</body>
+
+</html>
+
+<script>
+	$(function () {
+		var mapcon = document.documentElement.scrollHeight + 'px';
+		$("#mainmap").css('height', mapcon);
+	});
+	$(window).resize(function () {
+		var rmapcon = document.documentElement.clientHeight + 'px';
+		$("#mainmap").css('height', rmapcon);
+	});
+
+	(function () {
+		$("#mainmap").empty();
+		var _map = null;
+
+		var url_normal = 'http://localhost:3001/1818940751/{z}/{x}/{y}';
+		var glayer_normal = new L.TileLayer(url_normal, { minZoom: 3, maxZoom: 20, attribution: '普通地图' });
+
+		var url_marker = 'http://localhost:3001/1024577166/{z}/{x}/{y}';
+		var glayer_marker = new L.TileLayer(url_marker, { minZoom: 3, maxZoom: 20, attribution: '卫星地图' });
+
+		var url_satelite = 'http://localhost:3001/47626774/{z}/{x}/{y}';
+		var glayer_satelite = new L.TileLayer(url_satelite, { minZoom: 3, maxZoom: 20, attribution: '卫星地图' });
+
+		var latlng = new L.LatLng(38.8225909761771,105.380859375);
+
+		_map = new L.Map('mainmap', { center: latlng, zoom: 5, layers: [glayer_satelite, glayer_marker] });
+
+		var baseLayers = {
+			"普通地图": glayer_normal,
+			"卫星地图": glayer_satelite
+		};
+		var overlays = {
+			"混合": glayer_marker
+		};
+		L.control.layers(baseLayers, overlays, { position: 'topleft' }).addTo(_map);
+
+		//右键事件
+		_map.on('contextmenu', function (e) {
+			window.prompt("此处坐标：", e.latlng.lat + ',' + e.latlng.lng);
+		});
+	})();
+
+</script>

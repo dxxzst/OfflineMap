@@ -1,6 +1,6 @@
 const http = require("http");
 const url = require("url");
-const route = require("./router.js");
+const route = require("../router/router");
 
 const hostname = '127.0.0.1';
 const port = 3001;

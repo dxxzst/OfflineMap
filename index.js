@@ -1,6 +1,6 @@
-const server = require("./server.js");
-const router = require("./router.js");
-const requests = require("./mysql.js");
+const server = require("./app/server/server");
+const router = require("./app/router/router");
+const requests = require("./app/data/mysql");
 
 let handle = requests.get;
 

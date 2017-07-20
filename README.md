@@ -1,8 +1,8 @@
-# OfflineMap说明文档
+# 基于MySQL + Node.js + Leaflet的离线地图展示
 
 ---
 
-**1. 基于MySQL + Node.js + Leaflet的离线地图展示**
+**1. 基本说明**
 
 本项目实现了离线展示百度、谷歌、高德、腾讯地图。主要功能如下：
 

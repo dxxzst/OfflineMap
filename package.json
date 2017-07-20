@@ -1,0 +1,34 @@
+{
+  "name": "offline-map",
+  "version": "1.0.0",
+  "description": "本项目实现了离线展示百度、谷歌、高德、腾讯地图",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "formidable": "^1.1.1",
+    "mysql": "^2.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dxxzst/OfflineMap.git"
+  },
+  "keywords": [
+    "离线地图",
+    "Node.js",
+    "MySQL",
+    "Leaflet"
+  ],
+  "author": "dxxzst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dxxzst/OfflineMap/issues"
+  },
+  "homepage": "https://github.com/dxxzst/OfflineMap#readme"
+}

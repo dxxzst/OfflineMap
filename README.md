@@ -38,9 +38,10 @@
 
  - 修改mysql.js 中的配置。根据实际情况，配置数据库链接
  ![配置数据库链接][8]
- - mysql插件安装。在项目目录内运行 `npm install mysql`
- - 在目录内运行 `node index.js`
- - 以上运行完毕后，默认服务地址：http://127.0.0.1:3001
+ - 进入目录 `cd OfflineMap`
+ - 安装资源 `npm install`
+ - 启动服务 `npm start`
+ - 服务地址 `http://127.0.0.1:3001`
 
 **4. 页面展示**
 

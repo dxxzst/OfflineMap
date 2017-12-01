@@ -15,9 +15,9 @@ The project achieved off-line display of Baidu, Google, AMap, Tencent map. The m
  - Using LeafLet to show the map
  - [Leaflet][3]展示地图
 
+Show results as follows:
 展示效果如下：
-
-![展示效果][4]
+![展示效果][9]
 
 **2. 地图瓦片下载工具及配置**
 
@@ -58,8 +58,11 @@ The project achieved off-line display of Baidu, Google, AMap, Tencent map. The m
   [1]: https://www.mysql.com/
   [2]: https://nodejs.org/en/
   [3]: http://leafletjs.com/
-  [4]: http://i2.kiimg.com/561545/216983d692fef56a.jpg
+  
+  
   [5]: http://i2.kiimg.com/561545/18b1c776ce529746.jpg
   [6]: http://i4.piimg.com/561545/30fdee742409cee8.jpg
   [7]: http://i4.piimg.com/561545/1f87b80cce9a7c26.jpg
   [8]: http://i4.piimg.com/561545/71c0b9872f222c0b.jpg
+  
+  [9]: http://i2.kiimg.com/561545/216983d692fef56a.jpg

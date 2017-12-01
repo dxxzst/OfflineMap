@@ -1,13 +1,18 @@
-#Offline map display based on MySQL + Node.js + Leaflet 基于MySQL + Node.js + Leaflet的离线地图展示
+# Offline map display based on MySQL + Node.js + Leaflet 
+# 基于MySQL + Node.js + Leaflet的离线地图展示
 
 ---
 
-**1. 基本说明**
+**1. Basic instructions 基本说明**
 
+The project achieved off-line display of Baidu, Google, AMap, Tencent map. The main functions are as follows:
 本项目实现了离线展示百度、谷歌、高德、腾讯地图。主要功能如下：
 
+ - Map tiles download, storage. Currently supports storing to [MySQL] [1] 
  - 实现了地图瓦片图下载、存储。目前支持存储至[MySQL][1]
+ - The Node.js service invokes the map tiles in MySQL
  - [Node.js][2]服务调用MySQL中的瓦片图 
+ - Using LeafLet to show the map
  - [Leaflet][3]展示地图
 
 展示效果如下：

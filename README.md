@@ -53,8 +53,8 @@
   [2]: https://nodejs.org/en/
   [3]: http://leafletjs.com/
   
-  [5]: http://i2.kiimg.com/561545/18b1c776ce529746.jpg
-  [6]: http://i4.piimg.com/561545/30fdee742409cee8.jpg
-  [7]: http://i4.piimg.com/561545/1f87b80cce9a7c26.jpg
-  [8]: http://i4.piimg.com/561545/71c0b9872f222c0b.jpg
-  [9]: http://i2.kiimg.com/561545/216983d692fef56a.jpg
+  [5]: http://p3.pstatp.com/large/31bc0001e3ee90937d9c
+  [6]: http://p1.pstatp.com/large/2ee000029de7456f3538
+  [7]: http://p3.pstatp.com/large/31bc0001e43237650c8e
+  [8]: http://p3.pstatp.com/large/2edf0002ab3e860ec215
+  [9]: http://p3.pstatp.com/large/31be00007b8363551185

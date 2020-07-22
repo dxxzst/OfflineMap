@@ -19,6 +19,8 @@
 
 最新地址：https://pan.baidu.com/s/1miMF9nM
 
+工具开源地址：https://github.com/luxiaoxun/MapDownloader
+
 工具使用方法：
 
  - 数据库配置

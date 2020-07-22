@@ -15,9 +15,7 @@
 
 **2. 地图瓦片下载工具及配置**
 
-工具下载链接:~~http://pan.baidu.com/s/1qYoHj4K 密码: ehgh~~
-
-最新地址：https://pan.baidu.com/s/1miMF9nM
+工具下载地址：https://pan.baidu.com/s/1miMF9nM
 
 工具开源地址：https://github.com/luxiaoxun/MapDownloader
 

@@ -3,7 +3,7 @@
 ---
 
 [![Author](https://img.shields.io/badge/author-dxxzst-orange.svg)](https://github.com/dxxzst)
-[![Release](https://img.shields.io/github/release/dxxzst/picx.svg)](https://github.com/dxxzst/OfflineMap/releases)
+[![Stars](https://img.shields.io/github/stars/XPoet/picx)](https://img.shields.io/github/stars/XPoet/picx)
 [![License](https://img.shields.io/github/license/dxxzst/picx.svg)](https://github.com/dxxzst/OfflineMap/blob/master/LICENSE)
 
 

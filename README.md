@@ -2,6 +2,11 @@
 
 ---
 
+[![Author](https://img.shields.io/badge/author-dxxzst-orange.svg)](https://github.com/dxxzst)
+[![Release](https://img.shields.io/github/release/dxxzst/picx.svg)](https://github.com/dxxzst/OfflineMap/releases)
+[![License](https://img.shields.io/github/license/dxxzst/picx.svg)](https://github.com/dxxzst/OfflineMap/blob/master/LICENSE)
+
+
 **1. 基本说明**
 
 本项目实现了离线展示百度、谷歌、高德、腾讯地图。主要功能如下：
